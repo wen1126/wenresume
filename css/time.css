@@ -1,0 +1,35 @@
+.time-horizontal {
+  list-style-type: none;
+  border-top: 4px solid #FF7575;
+  position: relative;
+  top: -565px;
+  left: 90px;
+  max-width: 1000px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.time-horizontal li {
+  float: left;
+  position: relative;
+  top: 10px;
+  text-align: center;
+  font-family: "微軟正黑體";
+  font-size: 30px;
+  color: #CE0000;
+  font-weight: bold;
+  width: 25%;
+  padding-top: 30px;
+}
+
+.time-horizontal li b:before {
+  content: '';
+  position: absolute;
+  top: -25px;
+  left: 44%;
+  width: 8px;
+  height: 8px;
+  border: 10px solid #FF7575;
+  border-radius: 50%;
+  background: #FF7575;
+}
